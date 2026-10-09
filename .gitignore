@@ -1,24 +1,18 @@
-# Python
+# Python environments and cache
+.venv/
+venv/
+env/
 __pycache__/
 *.py[cod]
 *.egg-info/
 .env
-venv/
-env/
 
-# Jupyter
+# Generated data and trained model files
+data/*.npy
+models/*.keras
+models/*.tflite
+
+# Editor and operating system files
 .ipynb_checkpoints/
-
-# Data & Models (large files)
-data/raw/*
-data/processed/*
-models/*.h5
-
-# Keep folder structure
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!models/.gitkeep
-
-# OS
 .DS_Store
 Thumbs.db
