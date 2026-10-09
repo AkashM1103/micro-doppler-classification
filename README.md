@@ -66,3 +66,7 @@ python -m src.predict
 - `models/drone_bird_model.tflite`: TensorFlow Lite model used for prediction
 
 These are generated outputs and can be recreated by running `python main.py`.
+
+## Browse data and model contents on GitHub
+
+The full `.npy`, `.keras`, and `.tflite` files are stored as binary artifacts and can be downloaded, but GitHub does not display their internal contents as readable text. Open [`data/DATA_README.md`](data/DATA_README.md) for file details and CSV previews, including all labels, one signal, and one spectrogram. Open [`models/MODEL_README.md`](models/MODEL_README.md) and [`models/model_architecture.json`](models/model_architecture.json) to inspect the model description. The source pipeline is in [`src/`](src/).
